@@ -160,6 +160,11 @@
 	height: 113px;
 }
 
+.wrapper__footer{
+	width: 960px;
+	margin: 0 auto;
+}
+
 .footer__menu{
 	margin: 0 auto;
 }

@@ -527,6 +527,19 @@ background: linear-gradient(0deg, rgb(69, 69, 69) 0%, rgb(106, 106, 106) 100%);
     top: 58px;
 }
 
+.content__wrapper__item_figure:after{
+	display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid #ffffff;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: 312px;
+    left: 390px;
+    box-shadow: 2px 0px 3px -2px rgba(0, 0, 0, 0.05);
+}
+
 .content__wrapper__item_figure_a {
     font-size: 29px;
     margin: 31px 0 0 40px;

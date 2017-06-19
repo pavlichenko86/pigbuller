@@ -44,7 +44,7 @@
 
 
 .header__wrapper_ul__li{
-	height: 47px;
+	height: 40px;
 	list-style: none;
 	border-top: 1px solid #523f5a;
 	border-bottom: 1px solid #35273d;
@@ -85,6 +85,10 @@
 	text-transform: uppercase;
 }
 
+.header__wrapper_ul__li__a:hover{
+	border-bottom: 2px solid #edbfff;
+}
+
 .header__wrapper_ul__li__hr{
 	width: 47px;
 	height: 2px;
@@ -107,6 +111,10 @@
 
 .header__wrapper_ul:hover {
 	visibility: visible;
+}
+
+.header__wrapper_ul__li_active{
+	border-bottom: 2px solid #edbfff;
 }
 
 .header__wrapper__slider{
@@ -412,11 +420,19 @@
 }
 
 .header__wrapper_ul__li__a {
-    padding: 0 26px;
+    padding: 0;
 }
 
 .header__wrapper_ul__li__a_last {
-    padding: 0 0 0 24px;
+    padding: 0;
+}
+
+.header__wrapper_ul__li {
+    margin: 0 26px;
+}
+
+.li_first{
+	margin-left: 0;
 }
 
 .header__wrapper__slider {
